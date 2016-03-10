@@ -1,0 +1,34 @@
+body {
+		text-align: center;
+}
+#search {
+	background-color: teal;
+	padding: 0.5rem;
+}
+
+#results ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#results li {
+	padding: 0.5rem;
+	margin: 0.5rem;
+}
+
+#results li:nth-child(even) {
+	background-color: lightblue;
+}
+
+#results li:nth-child(odd) {
+	background-color: lightgreen;
+}
+
+#nav {
+	background-color: salmon;
+	padding: 0.5rem;
+}
+
+#prev, #next {
+	display: none;
+}

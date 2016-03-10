@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>YouTube API Experiment</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<section id="search">
+		<h1>YouTube Search</h1>
+		<form id="search-term">
+			<input type="text" id="query" />
+			<input type="submit" id="guessButton" class="button" name="submit"/>
+		</form>
+	</section>
+
+	<section id="results">
+		<ul id="search-results">
+		</ul>
+	</section>
+
+	<section id="nav">
+		<button id="prev">Previous page</button>
+		<button id="next">Next page</button>
+	</section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="apps/app.js"></script>
+</body>
+</html>
